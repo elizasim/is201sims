@@ -1,0 +1,61 @@
+body{
+    color: black; /*text color*/
+    font-family: 'Courier New', Courier, monospace
+}
+h1{
+    color: black;
+    font-family: fantasy
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: black; /*all anchor (links) to be aqua*/
+}
+a:visited{
+    color: black; /*once visited it turns red*/
+}
+li{
+    text-decoration: ;
+}
+li:hover{
+    text-decoration: underline;
+}
+.common{
+    position: absolute;
+    border: 5px solid black;
+    z-index: 1;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.content{
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+}
+.stuff{
+    border: 3px solid white;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: lightseagreen;
+    z-index: 10;
+}
+.rizz{
+    z-index: -1;
+}
